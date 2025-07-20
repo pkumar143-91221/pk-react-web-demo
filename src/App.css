@@ -1,0 +1,13 @@
+.loader-container {
+  position: fixed; /* Position relative to the viewport */
+  top: 50%; /* Move the top edge to the middle */
+  left: 50%; /* Move the left edge to the middle */
+  transform: translate(-50%, -50%); /* Adjust for the spinner's own dimensions */
+  z-index: 1050; /* Ensure it's above other content, if needed */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Take full viewport height */
+  width: 100vw; /* Take full viewport width */
+  /* background-color: rgba(255, 255, 255, 0.8);  Optional: add a semi-transparent overlay */
+}
