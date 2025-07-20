@@ -39,11 +39,11 @@ function AppRoutes() {
                     <Route element={<PrivateRoute />}>
                         <Route path="expense-form" element={<ExpenseForm />} />
                         <Route path="expense-api" element={<ExpenseEntryItemListAPI />} />
+                        <Route path="product-add" element={<ProductAddForm />} />
+                        <Route path="product-list" element={<ProductList />} />
                     </Route>
                     <Route path="expense-form-fn" element={<ExpenseFormFn />} />
-                    <Route path="product-add" element={<ProductAddForm />} />
                     <Route path="expense-ui" element={<ExpenseEntryItemListUI items={items} />} />
-                    <Route path="product-list" element={<ProductList />} />
                     <Route path="expense-list" element={<ExpenseEntryItemList1 />} />
                     <Route path="expense-loop" element={<ExpenseListUsingForLoop expenses={expenses} />} />
                 </Route>
