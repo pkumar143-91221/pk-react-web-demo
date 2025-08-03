@@ -7,7 +7,7 @@ import { Provider } from 'react-redux';
 import AppLoader from './components/AppLoader.js';
 import store from "./store.js";
 import { AuthProvider } from './contexts/AuthContext.js';
-import './translate/i18n.js'
+import './utils/i18n.js';
 function App() {
    return (
       <div className="container">
