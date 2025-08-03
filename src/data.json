@@ -1,0 +1,10 @@
+{
+    "category": [
+        {"id": 1, "name": "Men"},
+        {"id": 2, "name": "Ladies"}
+    ],
+    "subCategory":[
+        {"id": 3, "name": "TShirts", "parent_id": 1},
+        {"id": 4, "name": "Gadgets", "parent_id": 1}
+    ]
+}

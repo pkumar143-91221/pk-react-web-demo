@@ -1,0 +1,20 @@
+{
+    "welcome_message": "हमारे एप्लिकेशन में आपका स्वागत है!",
+    "languages": {
+        "English": "अंग्रेज़ी",
+        "Hindi": "हिंदी"
+    },
+    "navigation": {
+        "Login": "लॉगइन",
+        "Expense Loop": "एक्सपेंस लूप",
+        "Expense List": "एक्सपेंस सूची",
+        "Expense Form Fn": "एक्सपेंस फॉर्म Fn",
+        "Simple Pagination": "सरल पृष्ठांकन",
+        "Expense Form API": "एक्सपेंस फॉर्म API",
+        "Expense API": "एक्सपेंस API",
+        "Add Product": "उत्पाद जोड़ें",
+        "Products List": "उत्पाद सूची",
+        "Navbar": "नेवबार"
+
+    }
+}

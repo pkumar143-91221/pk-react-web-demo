@@ -2,6 +2,7 @@ import React from "react";
 import { addCount, hideLoader, showLoader } from "../actions/index1";
 import { connect, useDispatch } from "react-redux";
 import { useAuth } from "../contexts/AuthContext";
+import { useTranslation } from 'react-i18next';
 
 function ButtonClick(props) {
     const dispatch = useDispatch();
@@ -11,14 +12,19 @@ function ButtonClick(props) {
         // props.onClickButton();
         dispatch(addCount())
         // setTimeout(() => {props.onHideLoader()}, 200)
-        setTimeout(() => {dispatch(hideLoader())}, 200)
+        setTimeout(() => { dispatch(hideLoader()) }, 200)
     }
-    return(
+    const { t } = useTranslation();
+
+    return (
         <>
-        <button onClick={auth.logout}>Logout</button>
-        
-        <div>Component ClickMe:</div>
-        <button onClick={clickMe}>Click Me</button>
+            <button onClick={auth.logout}>Logout</button>
+
+            <div>Component ClickMe:</div>
+            <button onClick={clickMe}>Click Me</button>
+            <div>
+                <h1>{t('welcome_message')}</h1>
+            </div>
         </>
     );
 }

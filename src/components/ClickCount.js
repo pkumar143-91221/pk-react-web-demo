@@ -11,6 +11,7 @@ function ClickCount(props) {
         {/* <span>With mapStateToProps :: {props.numOfCount}</span> */}
         <span>With useSelector Hook :: {count}</span>
         </>
+        
     );
 }
 // const mapStateToProps = state => {

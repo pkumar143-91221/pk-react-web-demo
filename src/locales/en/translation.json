@@ -1,0 +1,20 @@
+{
+    "welcome_message": "Welcome to our application!",
+    "languages": {
+        "English": "English",
+        "Hindi": "Hindi"
+    },
+    "navigation": {
+        "Login": "Login",
+        "Expense Loop": "Expense Loop",
+        "Expense List": "Expense List",
+        "Expense Form Fn": "Expense Form Fn",
+        "Simple Pagination": "Simple Pagination",
+        "Expense Form API": "Expense Form API",
+        "Expense API": "Expense API",
+        "Add Product": "Add Product",
+        "Products List": "Products List",
+        "Navbar": "Navbar"
+
+    }
+}
